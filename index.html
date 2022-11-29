@@ -25,22 +25,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- <link href="https://fonts.googleapis.com/css2?family=Brawler&family=Cormorant+Infant:wght@500&display=swap" rel="stylesheet"> -->
-
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
-    
-
-    <!-- <link rel="stylesheet" href="https://use.typekit.net/cxq2mtu.css"> -->
     <link rel="stylesheet" href="https://use.typekit.net/hvs3kig.css">
-
 
     <!-- My links -->
     <link rel="stylesheet" type="text/css" href="styles.css"> 
-    <script src="scriptsOBF.js" async></script>
-    <!-- <script src="scripts.js" async></script> -->
+    <!-- <script src="scriptsOBF.js" async></script> -->
+    <script src="scripts.js" async></script>
 
 </head>
 <body>
-    <a class="skip" href="#newReleases">Skip To Main Content</a>
+    <a id="skip" href="#newReleases">Skip To Main Content</a>
     <header>  
         <h1><a href="#">Rachel Smythe</a></h1>
         <!-- <div id="darkSwitch"><button id="darkModeSub"></button> </div> -->
@@ -83,7 +78,7 @@
                     <img src="Images/Book1.jpeg" alt="Lore Olympus: Volume One book cover. Hades is at the top of the book cover upside down in the underworld looking up. While Persephone is on the bottom riding a horse in the mortal realm looking up at Hades.">
                     <div id="dialog" title="Book Description">
                         <p>Persephone, young goddess of spring, is new to Olympus. Her mother, Demeter, has raised her in the mortal realm, but after Persephone promises to train as a sacred virgin, she's allowed to live in the fast moving, glamorous world of the gods. When her roommate, Artemis, takes her to a party, her entire life changes: she ends up meeting Hades and feels an immediate spark with the charming yet misunderstood ruler of the Underworld. Now Persephone must navigate the confusing politics and relationships that rule Olympus, while also figuring out her own place—and her own power.</p>
-                    </div>ß
+                    </div>
                     <button id="openerOne">Book Description</button>
                     <a href="#"><div class="bookBtn">Buy Book</div></a>
                 </section>
@@ -220,9 +215,9 @@
                             <li>He is very confident, arrogant, and possessive.</li>
                         </ul>
                     </div>
-
                 </div>
             </section>
+
             <section>
                 <h3>Your Favorite Characters</h3>
                 <form>         
@@ -290,19 +285,21 @@
 
         <section id="contact">
             <h2>Join the Mailing List</h2>
-            <p>Sign up to recive updates on new episodes and books</p>
-            <form>
-                <label for="userName">Full Name <span class="required">*</span></label>
-                <input type="text" name="userName" id="userName" placeholder="First Name" autocomplete="name">
-                <span class="userInfo"></span>
+            <div>
+                <p>Sign up to recive updates on new episodes and books</p>
+                <form>
+                    <label for="userName">Full Name <span class="required">*</span></label>
+                    <input type="text" name="userName" id="userName" placeholder="First Name" autocomplete="name" required>
+                    <span class="userInfo"></span>
 
-                <label for="userEmail">E-mail<span class="required">*</span></label>
-                <input type="email" name="userEmail" id="userEmail" placeholder="you@domain.com" autocomplete="email">
-                <span class="userInfo"></span>
-            
-                <input type="submit" name="formSubmit" id="formSubmit" value="Sign Up">
-            </form>
-            <p></p>
+                    <label for="userEmail">E-mail<span class="required">*</span></label>
+                    <input type="email" name="userEmail" id="userEmail" placeholder="you@domain.com" autocomplete="email" required>
+                    <span class="userInfo"></span>
+                
+                    <input type="submit" name="formSubmit" id="formSubmit" value="Sign Up">
+                </form>
+                <p></p>
+            </div>
             <!-- Img resource: https://www.webtoons.com/en/romance/lore-olympus/message-and-concept-art/viewer?title_no=1320&episode_no=13 -->
             <img src="Images/Contact.png" alt="Concept art of Persephone and Hades from Lore Olympus Volume one">
         </section>
@@ -322,7 +319,6 @@
             </ul>
         </nav>
         <small>2022 &copy; Rachel Smythe <br> For Educational Purposes Only </small>
-    
     </footer>
 </body>
 </html>
