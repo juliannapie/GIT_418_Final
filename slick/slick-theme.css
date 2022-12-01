@@ -67,8 +67,7 @@
 .slick-next:before
 {
     font-family: 'slick';
-    /* Made Change Here */
-    font-size: 40px; 
+    font-size: 20px; 
     line-height: 1;
 
     opacity: .75;
@@ -179,8 +178,7 @@
 .slick-dots li button:before
 {
     font-family: 'slick';
-    /* Made Change Here */
-    font-size: 20px;
+    font-size: 6px;
     line-height: 20px;
 
     position: absolute;
@@ -193,8 +191,7 @@
     content: '•';
     text-align: center;
 
-    /* Made Change Here */
-    opacity: .55;
+    opacity: .25;
     color: #000;
 
     -webkit-font-smoothing: antialiased;
